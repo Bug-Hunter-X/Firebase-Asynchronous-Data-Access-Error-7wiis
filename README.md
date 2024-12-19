@@ -1,0 +1,1 @@
+This repository demonstrates a common error when working with Firebase's asynchronous data retrieval methods.  The bug arises from attempting to access document snapshot data before the data is fully loaded, causing unexpected behavior.  The solution shows how to properly handle asynchronous operations using promises or async/await to ensure data is available before access.
